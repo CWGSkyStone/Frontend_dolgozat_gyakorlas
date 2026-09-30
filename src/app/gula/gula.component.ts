@@ -1,3 +1,13 @@
+/*
+File: gula.ts
+Author: Szabó József
+Copyright: 2026, Szabó József
+Group: Szoft II/N
+Date: 2026-09-30
+Github: https://github.com/CWGSkyStone/
+Licenc: GNU GPL
+*/
+
 import { Component, inject } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 
