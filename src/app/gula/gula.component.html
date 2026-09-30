@@ -1,0 +1,19 @@
+<h1 class="text-center">Számítás</h1>
+
+<form [formGroup]="gulaForm" (ngSubmit)="startCalc()">
+    <div>
+        <label for="height" class="form-label">Magasság</label>
+        <input type="text" id="height" class="form-control" formControlName="height">
+    </div>
+    <div>
+        <label for="base" class="form-label">Alap</label>
+        <input type="text" id="base" class="form-control" formControlName="base">
+    </div>
+    <button class="btn btn-primary mt-3 mb-3">Számítás</button>
+    @if(showVolume){
+        <div>
+            <label for="volume" class="form-label">Térfogat</label>
+            <input type="text" id="volume" class="form-control" formControlName="volume">
+        </div>
+    }
+</form>
